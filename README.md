@@ -1,1 +1,2 @@
-### Boilerplate app structure for Quiz App project
+### JQuery quiz app
+User answers multiple choice questions about Plato's dialogues.
