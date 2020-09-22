@@ -1,0 +1,77 @@
+/* Your styles should be mobile-first and responsive */
+
+/** 
+  * If you are unclear on how to utilize a mobile-first, responsive technique to write your CSS, here is an example: 
+  *
+  * https://github.com/andreacardybailey/responsive_example/blob/master/styles/responsive-base.css 
+  *
+*/
+* {
+  box-sizing: border-box;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: rgba(28, 163, 187, 0.74);
+  
+  margin:0 auto;
+  text-align:left
+}
+
+
+
+ul {
+  display: inline-flex;
+  padding: 0;
+  list-style: none;
+  
+}
+ul li {
+  padding-right: 20px;
+}
+
+body {
+  text-align: center;
+  align-content: center;
+  
+
+}
+#answer-button {
+  margin-top: 10px;
+}
+fieldset {
+  border: none;
+  
+}
+legend {
+  padding: 10px;
+}
+input {
+  margin-left: 20px;
+}
+form button {
+  margin-left: 10px;
+}
+
+h1 {
+  font-size: 35px;
+  font-family: 'Lobster',cursive;
+  color: rgba(255, 0, 0, 0.795);
+}
+
+body {
+  font-family: 'Roboto',sans-serif;
+  background-color: rgba(206, 209, 19, 0.801)
+}
+
+
+
+@media all and (min-width: 600px){
+  
+  form {
+    width: 500px;
+    border-radius: 20px;
+    
+  }
+}
