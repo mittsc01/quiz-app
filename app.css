@@ -31,11 +31,9 @@ ul li {
   padding-right: 20px;
 }
 
-body {
-  text-align: center;
-  align-content: center;
-  
 
+button {
+  border-radius: 8px;
 }
 #answer-button {
   margin-top: 10px;
@@ -62,7 +60,8 @@ h1 {
 
 body {
   font-family: 'Roboto',sans-serif;
-  background-color: rgba(206, 209, 19, 0.801)
+  background-color: rgba(206, 209, 19, 0.801);
+  text-align: center;
 }
 
 
@@ -72,6 +71,12 @@ body {
   form {
     width: 500px;
     border-radius: 20px;
+    
+    
+  }
+  button:hover {
+    transform: scale(1.25);
+    background-color: rgb(255, 9, 255);
     
   }
 }
